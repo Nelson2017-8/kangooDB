@@ -1,0 +1,29 @@
+extends ./layouts.jade
+block contenido
+
+    div.container
+        div.row
+            div.col-sm-12.mt-5
+                h3.text-center.text-primary Convertidor de Formato
+                    small.text-muted &nbsp;(.html a .jade)
+                div.container.mt-5
+                    div.form-gruop
+                        label#html Código HTML
+                        textarea#htmlCode.form-control(placeholder="HTML",required, rows="6")
+                    div.form-gruop.mt-5
+                        button#converter.btn.btn-primary.px-3 Convertir
+                div.container.mt-5
+                    div#exe
+                    div#convertJade
+                        pre
+                            div.copy.btn.btn-outline-primary.border-0.btn-sm(data-toggle="tooltip" data-placement="top" title="Tooltip on top") Copiar
+                            ul.container-num.py-4
+                            code.html.px-4.py-4
+                                h3.text-muted.mb-3
+                                    b Código HTML
+                                div.div &lt;div class="container"&gt;
+                                    div.div &lt;div class="row"&gt;
+                                        div.div &lt;div class="col-md-12"&gt;
+                                        div.div &lt;/div&gt;
+                                    div.div&lt;/div&gt;
+                                div.div&lt;/div&gt;

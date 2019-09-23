@@ -1,0 +1,71 @@
+extends ./template.jade
+block contenido
+  section.row.col-sm-12
+    section.section-code.col-sm-6
+        article.col-sm-12
+            div.head
+                p(class="float-left")
+                    small app.js
+                p(class="float-right")
+                    small Javascript
+            div.code
+                pre
+                    div.recomendation(data-lang="js")
+                        ul
+                            li
+                                a( href="#" ) console.error("Hola mundo");
+                                a( href="#" ) propiedad
+
+                            li
+                                a( href="#" ) console.error("Hola mundo");
+                                a( href="#" ) propiedad
+
+                            li
+                                a( href="#" ) console.error("Hola mundo");
+                                a( href="#" ) propiedad
+                    textarea(class="code-js edit-code")
+                    code(class="lang-js" data-lang="js").
+                        console.log("Hola mundo");
+        article.col-sm-12
+            div.head
+                p(class="float-left")
+                    small app.css
+                p(class="float-right")
+                    small CSS
+            div.code
+                pre
+                    div.recomendation.hidden(data-lang="css")
+                        ul
+                    textarea(class="code-css edit-code")
+                    code(class="lang-css" data-lang="css").
+                        .bg-black{
+                            background-color: #333333;
+                        }
+        article.col-sm-12
+            div.head
+                p(class="float-left")
+                    small index.html
+                p(class="float-right")
+                    small HTML
+            div.code
+                pre
+                    div.recomendation.hidden(data-lang="html")
+                        ul
+                    textarea(class="code-html edit-code")
+                    code(class="lang-html" data-lang="html").
+                        console.log("Hola mundo");
+    section.section-view.col-sm-6
+        article.col.sm-12
+            div.head
+                p(class="float-left")
+                    small index.html
+                p(class="float-right")
+                    small Visualización
+            div.view
+                h1 Bienvenido
+        //- div(class="view")
+    //- button.btn.btn-lg.btn-primary#send Enviar
+            //- iframe(class="view" src="#{domain}css/console.css")
+            //- iframe(class="view" src="#{domain}template/console.html")
+            //- iframe(class="view" src="#{domain}template/console.js")
+

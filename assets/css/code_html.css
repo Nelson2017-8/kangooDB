@@ -1,0 +1,79 @@
+@media (min-width: 576px){
+    .bd-content .highlight {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .bd-content .highlight {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+@media (min-width: 576px){
+    .highlight {
+        padding: 1.5rem;
+    }
+    .highlight {
+        padding: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: #f8f9fa;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+}
+.highlight pre {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    border: 0;
+}
+code.language-html span{
+    float: left;
+    display: block;
+}
+.tags {
+    color: #2f6f9f;
+}
+.atrr {
+    color: #4f9fcf;
+}
+.class {
+    color: #d44950;
+}
+.div{
+    margin-left: 20px;
+    line-height: 25px
+}
+.container-num{
+    position: absolute;
+    z-index: 1000;
+    list-style: none;
+    left: 10px;
+    bottom: -2px;
+}
+.copy{
+    position: absolute;
+    z-index: 1000;
+    right: 5em;
+    margin-top: 1em;
+}
+.code{
+    position: relative;
+}
+.num{
+    color: #9E9E9E;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+    font-family: Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.jade-tags{
+    color: #444;
+    font-weight: bold;
+}
+.jade-class{
+    color: #880000;
+}
+/*.aling ~ .aling {
+    margin-left: 1em;
+}*/
